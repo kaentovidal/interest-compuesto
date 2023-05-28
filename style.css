@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Poppins-regular";
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+:root {
+    /*Primary Colors  */
+    --bg: #333;
+    /* fore colors */
+    --fc: #c1bebe;
+}
+
+html {
+    font-family: 'Poppins-regular', sans-serif;
+}
+
+body {
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--bg);
+}
+
+form {
+    margin: auto;
+    background-color: var(--fc);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 100;
+    inset: 3px;
+    border-radius: 8px;
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="button"] {
+    border: none;
+    outline: none;
+    background: #45f3ff;
+    padding: 11px 25px;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input[type="submit"]:active {
+    opacity: 0.6;
+}
+
+#result {
+    color: blueviolet;
+}
+
+

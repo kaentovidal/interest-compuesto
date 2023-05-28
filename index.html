@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Interes Compuesto</title>
+	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="icon" type="image/png" sizes="32x32" href="Aqui va el logo perrro"> -->
+    </head>
+    <body>
+	    <form>
+
+			<h3>Calcular interés compuesto</h3>
+
+			<label for="name">
+				<input type="number" name="name" required="required" id="capital">
+				<span>Capital</span>
+				<i></i>
+			</label>
+			<label for="years">
+				<input type="number" name="years" required="required" id="years">
+				<span>Años</span>
+				<i></i>
+			</label>
+			<label for="interest">
+				<input type="number" name="interest" required="required" id="interest">
+				<span>interés</span>
+				<i></i>
+			</label>
+
+			<button type="button" onclick="calcular()">Calcular</button>
+
+			<div id="result"></div>
+
+	    </form>
+
+	<script src="main.js"></script>
+    </body>
+
+</html>
